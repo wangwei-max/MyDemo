@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="keyboard">
+            <connections>
+                <outlet property="dowunBtn" destination="Y4X-YQ-zBy" id="1EG-Lm-vZh"/>
+                <outlet property="upBtn" destination="coi-OX-bJK" id="2Wb-q4-hJj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="93V-MT-rDf">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+            <items>
+                <barButtonItem title="上一项" id="coi-OX-bJK">
+                    <connections>
+                        <action selector="upBtn:" destination="-1" id="phj-yS-2RM"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem title="下一项" id="Y4X-YQ-zBy">
+                    <connections>
+                        <action selector="downBtn:" destination="-1" id="Ito-0A-Csp"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem width="145" style="plain" systemItem="fixedSpace" id="p7z-Sd-BAD"/>
+                <barButtonItem title="完成" id="I16-Fb-y99">
+                    <connections>
+                        <action selector="doneBtn:" destination="-1" id="Qoa-j4-FL9"/>
+                    </connections>
+                </barButtonItem>
+            </items>
+            <point key="canvasLocation" x="325" y="249"/>
+        </toolbar>
+    </objects>
+</document>
