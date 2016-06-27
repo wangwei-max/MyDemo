@@ -71,29 +71,6 @@
 
 #define backBarButton [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]
  
-//信鸽推送
-#define XGAppKey  @"I9G8Z26ILK9S"
-
-// 友盟
-#define UMENG_APPKEY @"5634d3bbe0f55ad04e000182"
-
-//shareSDK
-#define ShareSDKAPPKEY @"bfc3aab8aa50"
-
-//新浪
-#define SinaWBAppKey @"1529453946"
-#define SinaWBURI    @"3105e0e6880a6e501c7566c2b1ab448d"
-
-//微信
-#define WXAppKey @"wx0c80e63495f04be9"
-#define WXAppSecret @"d4624c36b6795d1d99dcf0547af5443d"
-
-//QQ
-#define QQAppID @"1104874083"
-#define QQURI @"HGlpPjOdk8XW7yxm"
-
-//AppID
-#define AppID @"1060973985"
 
 // IP地址
 #define BaseUrl @"http://api.daydaycook.com.cn/daydaycook/server"//http://218.244.151.213/daydaycook/server//http://116.228.173.50:8189/daydaycook
