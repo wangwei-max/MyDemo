@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700F5E051B96A3B6000434FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F5E041B96A3B6000434FD /* main.m */; };
+		700F5E081B96A3B6000434FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F5E071B96A3B6000434FD /* AppDelegate.m */; };
+		700F5E0B1B96A3B6000434FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F5E0A1B96A3B6000434FD /* ViewController.m */; };
+		700F5E0E1B96A3B6000434FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700F5E0C1B96A3B6000434FD /* Main.storyboard */; };
+		700F5E101B96A3B6000434FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700F5E0F1B96A3B6000434FD /* Assets.xcassets */; };
+		700F5E131B96A3B6000434FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700F5E111B96A3B6000434FD /* LaunchScreen.storyboard */; };
+		700F5E1E1B96A3B6000434FD /* _5__HTML___OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F5E1D1B96A3B6000434FD /* _5__HTML___OCTests.m */; };
+		700F5E291B96A3B6000434FD /* _5__HTML___OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 700F5E281B96A3B6000434FD /* _5__HTML___OCUITests.m */; };
+		700F5E391B96A3E8000434FD /* img_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 700F5E371B96A3E8000434FD /* img_01.jpg */; };
+		700F5E3A1B96A3E8000434FD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 700F5E381B96A3E8000434FD /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700F5E1A1B96A3B6000434FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700F5DF81B96A3B6000434FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700F5DFF1B96A3B6000434FD;
+			remoteInfo = "05-在HTML中调用OC";
+		};
+		700F5E251B96A3B6000434FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700F5DF81B96A3B6000434FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700F5DFF1B96A3B6000434FD;
+			remoteInfo = "05-在HTML中调用OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		700F5E001B96A3B6000434FD /* 05-在HTML中调用OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-在HTML中调用OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700F5E041B96A3B6000434FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		700F5E061B96A3B6000434FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		700F5E071B96A3B6000434FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		700F5E091B96A3B6000434FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		700F5E0A1B96A3B6000434FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		700F5E0D1B96A3B6000434FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		700F5E0F1B96A3B6000434FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700F5E121B96A3B6000434FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700F5E141B96A3B6000434FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700F5E191B96A3B6000434FD /* 05-在HTML中调用OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-在HTML中调用OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700F5E1D1B96A3B6000434FD /* _5__HTML___OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5__HTML___OCTests.m"; sourceTree = "<group>"; };
+		700F5E1F1B96A3B6000434FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700F5E241B96A3B6000434FD /* 05-在HTML中调用OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "05-在HTML中调用OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700F5E281B96A3B6000434FD /* _5__HTML___OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_5__HTML___OCUITests.m"; sourceTree = "<group>"; };
+		700F5E2A1B96A3B6000434FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700F5E371B96A3E8000434FD /* img_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_01.jpg; sourceTree = "<group>"; };
+		700F5E381B96A3E8000434FD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700F5DFD1B96A3B6000434FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E161B96A3B6000434FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E211B96A3B6000434FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700F5DF71B96A3B6000434FD = {
+			isa = PBXGroup;
+			children = (
+				700F5E021B96A3B6000434FD /* 05-在HTML中调用OC */,
+				700F5E1C1B96A3B6000434FD /* 05-在HTML中调用OCTests */,
+				700F5E271B96A3B6000434FD /* 05-在HTML中调用OCUITests */,
+				700F5E011B96A3B6000434FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700F5E011B96A3B6000434FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E001B96A3B6000434FD /* 05-在HTML中调用OC.app */,
+				700F5E191B96A3B6000434FD /* 05-在HTML中调用OCTests.xctest */,
+				700F5E241B96A3B6000434FD /* 05-在HTML中调用OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700F5E021B96A3B6000434FD /* 05-在HTML中调用OC */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E361B96A3E8000434FD /* web */,
+				700F5E061B96A3B6000434FD /* AppDelegate.h */,
+				700F5E071B96A3B6000434FD /* AppDelegate.m */,
+				700F5E091B96A3B6000434FD /* ViewController.h */,
+				700F5E0A1B96A3B6000434FD /* ViewController.m */,
+				700F5E0C1B96A3B6000434FD /* Main.storyboard */,
+				700F5E0F1B96A3B6000434FD /* Assets.xcassets */,
+				700F5E111B96A3B6000434FD /* LaunchScreen.storyboard */,
+				700F5E141B96A3B6000434FD /* Info.plist */,
+				700F5E031B96A3B6000434FD /* Supporting Files */,
+			);
+			path = "05-在HTML中调用OC";
+			sourceTree = "<group>";
+		};
+		700F5E031B96A3B6000434FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E041B96A3B6000434FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		700F5E1C1B96A3B6000434FD /* 05-在HTML中调用OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E1D1B96A3B6000434FD /* _5__HTML___OCTests.m */,
+				700F5E1F1B96A3B6000434FD /* Info.plist */,
+			);
+			path = "05-在HTML中调用OCTests";
+			sourceTree = "<group>";
+		};
+		700F5E271B96A3B6000434FD /* 05-在HTML中调用OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E281B96A3B6000434FD /* _5__HTML___OCUITests.m */,
+				700F5E2A1B96A3B6000434FD /* Info.plist */,
+			);
+			path = "05-在HTML中调用OCUITests";
+			sourceTree = "<group>";
+		};
+		700F5E361B96A3E8000434FD /* web */ = {
+			isa = PBXGroup;
+			children = (
+				700F5E371B96A3E8000434FD /* img_01.jpg */,
+				700F5E381B96A3E8000434FD /* index.html */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700F5DFF1B96A3B6000434FD /* 05-在HTML中调用OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700F5E2D1B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OC" */;
+			buildPhases = (
+				700F5DFC1B96A3B6000434FD /* Sources */,
+				700F5DFD1B96A3B6000434FD /* Frameworks */,
+				700F5DFE1B96A3B6000434FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-在HTML中调用OC";
+			productName = "05-在HTML中调用OC";
+			productReference = 700F5E001B96A3B6000434FD /* 05-在HTML中调用OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700F5E181B96A3B6000434FD /* 05-在HTML中调用OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700F5E301B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OCTests" */;
+			buildPhases = (
+				700F5E151B96A3B6000434FD /* Sources */,
+				700F5E161B96A3B6000434FD /* Frameworks */,
+				700F5E171B96A3B6000434FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700F5E1B1B96A3B6000434FD /* PBXTargetDependency */,
+			);
+			name = "05-在HTML中调用OCTests";
+			productName = "05-在HTML中调用OCTests";
+			productReference = 700F5E191B96A3B6000434FD /* 05-在HTML中调用OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		700F5E231B96A3B6000434FD /* 05-在HTML中调用OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700F5E331B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OCUITests" */;
+			buildPhases = (
+				700F5E201B96A3B6000434FD /* Sources */,
+				700F5E211B96A3B6000434FD /* Frameworks */,
+				700F5E221B96A3B6000434FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700F5E261B96A3B6000434FD /* PBXTargetDependency */,
+			);
+			name = "05-在HTML中调用OCUITests";
+			productName = "05-在HTML中调用OCUITests";
+			productReference = 700F5E241B96A3B6000434FD /* 05-在HTML中调用OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700F5DF81B96A3B6000434FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					700F5DFF1B96A3B6000434FD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					700F5E181B96A3B6000434FD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 700F5DFF1B96A3B6000434FD;
+					};
+					700F5E231B96A3B6000434FD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 700F5DFF1B96A3B6000434FD;
+					};
+				};
+			};
+			buildConfigurationList = 700F5DFB1B96A3B6000434FD /* Build configuration list for PBXProject "05-在HTML中调用OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700F5DF71B96A3B6000434FD;
+			productRefGroup = 700F5E011B96A3B6000434FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700F5DFF1B96A3B6000434FD /* 05-在HTML中调用OC */,
+				700F5E181B96A3B6000434FD /* 05-在HTML中调用OCTests */,
+				700F5E231B96A3B6000434FD /* 05-在HTML中调用OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700F5DFE1B96A3B6000434FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700F5E3A1B96A3E8000434FD /* index.html in Resources */,
+				700F5E131B96A3B6000434FD /* LaunchScreen.storyboard in Resources */,
+				700F5E101B96A3B6000434FD /* Assets.xcassets in Resources */,
+				700F5E391B96A3E8000434FD /* img_01.jpg in Resources */,
+				700F5E0E1B96A3B6000434FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E171B96A3B6000434FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E221B96A3B6000434FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700F5DFC1B96A3B6000434FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700F5E0B1B96A3B6000434FD /* ViewController.m in Sources */,
+				700F5E081B96A3B6000434FD /* AppDelegate.m in Sources */,
+				700F5E051B96A3B6000434FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E151B96A3B6000434FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700F5E1E1B96A3B6000434FD /* _5__HTML___OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700F5E201B96A3B6000434FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700F5E291B96A3B6000434FD /* _5__HTML___OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		700F5E1B1B96A3B6000434FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700F5DFF1B96A3B6000434FD /* 05-在HTML中调用OC */;
+			targetProxy = 700F5E1A1B96A3B6000434FD /* PBXContainerItemProxy */;
+		};
+		700F5E261B96A3B6000434FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700F5DFF1B96A3B6000434FD /* 05-在HTML中调用OC */;
+			targetProxy = 700F5E251B96A3B6000434FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700F5E0C1B96A3B6000434FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700F5E0D1B96A3B6000434FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		700F5E111B96A3B6000434FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700F5E121B96A3B6000434FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700F5E2B1B96A3B6000434FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		700F5E2C1B96A3B6000434FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700F5E2E1B96A3B6000434FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-在HTML中调用OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		700F5E2F1B96A3B6000434FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-在HTML中调用OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		700F5E311B96A3B6000434FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-在HTML中调用OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-在HTML中调用OC.app/05-在HTML中调用OC";
+			};
+			name = Debug;
+		};
+		700F5E321B96A3B6000434FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "05-在HTML中调用OCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/05-在HTML中调用OC.app/05-在HTML中调用OC";
+			};
+			name = Release;
+		};
+		700F5E341B96A3B6000434FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-在HTML中调用OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-在HTML中调用OC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		700F5E351B96A3B6000434FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "05-在HTML中调用OCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5--HTML---OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "05-在HTML中调用OC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700F5DFB1B96A3B6000434FD /* Build configuration list for PBXProject "05-在HTML中调用OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700F5E2B1B96A3B6000434FD /* Debug */,
+				700F5E2C1B96A3B6000434FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700F5E2D1B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700F5E2E1B96A3B6000434FD /* Debug */,
+				700F5E2F1B96A3B6000434FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700F5E301B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700F5E311B96A3B6000434FD /* Debug */,
+				700F5E321B96A3B6000434FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700F5E331B96A3B6000434FD /* Build configuration list for PBXNativeTarget "05-在HTML中调用OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700F5E341B96A3B6000434FD /* Debug */,
+				700F5E351B96A3B6000434FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700F5DF81B96A3B6000434FD /* Project object */;
+}
