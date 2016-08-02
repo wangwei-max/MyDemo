@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506ABD381D503890000B4FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABD371D503890000B4FCE /* main.m */; };
+		506ABD3B1D503890000B4FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABD3A1D503890000B4FCE /* AppDelegate.m */; };
+		506ABD3E1D503890000B4FCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABD3D1D503890000B4FCE /* ViewController.m */; };
+		506ABD411D503890000B4FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506ABD3F1D503890000B4FCE /* Main.storyboard */; };
+		506ABD431D503890000B4FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506ABD421D503890000B4FCE /* Assets.xcassets */; };
+		506ABD461D503890000B4FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 506ABD441D503890000B4FCE /* LaunchScreen.storyboard */; };
+		506ABD511D503890000B4FCE /* _ios___htmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABD501D503890000B4FCE /* _ios___htmlTests.m */; };
+		506ABD5C1D503890000B4FCE /* _ios___htmlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506ABD5B1D503890000B4FCE /* _ios___htmlUITests.m */; };
+		506ABD6D1D50391E000B4FCE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 506ABD6C1D50391E000B4FCE /* index.html */; };
+		506ABD6F1D504236000B4FCE /* img_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 506ABD6E1D504236000B4FCE /* img_01.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		506ABD4D1D503890000B4FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506ABD2B1D503890000B4FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506ABD321D503890000B4FCE;
+			remoteInfo = "在ios中调用html";
+		};
+		506ABD581D503890000B4FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506ABD2B1D503890000B4FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506ABD321D503890000B4FCE;
+			remoteInfo = "在ios中调用html";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		506ABD331D503890000B4FCE /* 在ios中调用html.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "在ios中调用html.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506ABD371D503890000B4FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		506ABD391D503890000B4FCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		506ABD3A1D503890000B4FCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		506ABD3C1D503890000B4FCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		506ABD3D1D503890000B4FCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		506ABD401D503890000B4FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		506ABD421D503890000B4FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		506ABD451D503890000B4FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		506ABD471D503890000B4FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506ABD4C1D503890000B4FCE /* 在ios中调用htmlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在ios中调用htmlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506ABD501D503890000B4FCE /* _ios___htmlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_ios___htmlTests.m"; sourceTree = "<group>"; };
+		506ABD521D503890000B4FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506ABD571D503890000B4FCE /* 在ios中调用htmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "在ios中调用htmlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506ABD5B1D503890000B4FCE /* _ios___htmlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_ios___htmlUITests.m"; sourceTree = "<group>"; };
+		506ABD5D1D503890000B4FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		506ABD6C1D50391E000B4FCE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		506ABD6E1D504236000B4FCE /* img_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_01.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506ABD301D503890000B4FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD491D503890000B4FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD541D503890000B4FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506ABD2A1D50388F000B4FCE = {
+			isa = PBXGroup;
+			children = (
+				506ABD351D503890000B4FCE /* 在ios中调用html */,
+				506ABD4F1D503890000B4FCE /* 在ios中调用htmlTests */,
+				506ABD5A1D503890000B4FCE /* 在ios中调用htmlUITests */,
+				506ABD341D503890000B4FCE /* Products */,
+				506ABD6B1D50391E000B4FCE /* web */,
+			);
+			sourceTree = "<group>";
+		};
+		506ABD341D503890000B4FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD331D503890000B4FCE /* 在ios中调用html.app */,
+				506ABD4C1D503890000B4FCE /* 在ios中调用htmlTests.xctest */,
+				506ABD571D503890000B4FCE /* 在ios中调用htmlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506ABD351D503890000B4FCE /* 在ios中调用html */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD391D503890000B4FCE /* AppDelegate.h */,
+				506ABD3A1D503890000B4FCE /* AppDelegate.m */,
+				506ABD3C1D503890000B4FCE /* ViewController.h */,
+				506ABD3D1D503890000B4FCE /* ViewController.m */,
+				506ABD3F1D503890000B4FCE /* Main.storyboard */,
+				506ABD421D503890000B4FCE /* Assets.xcassets */,
+				506ABD441D503890000B4FCE /* LaunchScreen.storyboard */,
+				506ABD471D503890000B4FCE /* Info.plist */,
+				506ABD361D503890000B4FCE /* Supporting Files */,
+			);
+			path = "在ios中调用html";
+			sourceTree = "<group>";
+		};
+		506ABD361D503890000B4FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD371D503890000B4FCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		506ABD4F1D503890000B4FCE /* 在ios中调用htmlTests */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD501D503890000B4FCE /* _ios___htmlTests.m */,
+				506ABD521D503890000B4FCE /* Info.plist */,
+			);
+			path = "在ios中调用htmlTests";
+			sourceTree = "<group>";
+		};
+		506ABD5A1D503890000B4FCE /* 在ios中调用htmlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD5B1D503890000B4FCE /* _ios___htmlUITests.m */,
+				506ABD5D1D503890000B4FCE /* Info.plist */,
+			);
+			path = "在ios中调用htmlUITests";
+			sourceTree = "<group>";
+		};
+		506ABD6B1D50391E000B4FCE /* web */ = {
+			isa = PBXGroup;
+			children = (
+				506ABD6E1D504236000B4FCE /* img_01.jpg */,
+				506ABD6C1D50391E000B4FCE /* index.html */,
+			);
+			name = web;
+			path = "在ios中调用html/web";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506ABD321D503890000B4FCE /* 在ios中调用html */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506ABD601D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用html" */;
+			buildPhases = (
+				506ABD2F1D503890000B4FCE /* Sources */,
+				506ABD301D503890000B4FCE /* Frameworks */,
+				506ABD311D503890000B4FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "在ios中调用html";
+			productName = "在ios中调用html";
+			productReference = 506ABD331D503890000B4FCE /* 在ios中调用html.app */;
+			productType = "com.apple.product-type.application";
+		};
+		506ABD4B1D503890000B4FCE /* 在ios中调用htmlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506ABD631D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用htmlTests" */;
+			buildPhases = (
+				506ABD481D503890000B4FCE /* Sources */,
+				506ABD491D503890000B4FCE /* Frameworks */,
+				506ABD4A1D503890000B4FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506ABD4E1D503890000B4FCE /* PBXTargetDependency */,
+			);
+			name = "在ios中调用htmlTests";
+			productName = "在ios中调用htmlTests";
+			productReference = 506ABD4C1D503890000B4FCE /* 在ios中调用htmlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		506ABD561D503890000B4FCE /* 在ios中调用htmlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506ABD661D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用htmlUITests" */;
+			buildPhases = (
+				506ABD531D503890000B4FCE /* Sources */,
+				506ABD541D503890000B4FCE /* Frameworks */,
+				506ABD551D503890000B4FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506ABD591D503890000B4FCE /* PBXTargetDependency */,
+			);
+			name = "在ios中调用htmlUITests";
+			productName = "在ios中调用htmlUITests";
+			productReference = 506ABD571D503890000B4FCE /* 在ios中调用htmlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506ABD2B1D503890000B4FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = max;
+				TargetAttributes = {
+					506ABD321D503890000B4FCE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					506ABD4B1D503890000B4FCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 506ABD321D503890000B4FCE;
+					};
+					506ABD561D503890000B4FCE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 506ABD321D503890000B4FCE;
+					};
+				};
+			};
+			buildConfigurationList = 506ABD2E1D503890000B4FCE /* Build configuration list for PBXProject "在ios中调用html" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 506ABD2A1D50388F000B4FCE;
+			productRefGroup = 506ABD341D503890000B4FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506ABD321D503890000B4FCE /* 在ios中调用html */,
+				506ABD4B1D503890000B4FCE /* 在ios中调用htmlTests */,
+				506ABD561D503890000B4FCE /* 在ios中调用htmlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506ABD311D503890000B4FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ABD461D503890000B4FCE /* LaunchScreen.storyboard in Resources */,
+				506ABD6F1D504236000B4FCE /* img_01.jpg in Resources */,
+				506ABD6D1D50391E000B4FCE /* index.html in Resources */,
+				506ABD431D503890000B4FCE /* Assets.xcassets in Resources */,
+				506ABD411D503890000B4FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD4A1D503890000B4FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD551D503890000B4FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506ABD2F1D503890000B4FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ABD3E1D503890000B4FCE /* ViewController.m in Sources */,
+				506ABD3B1D503890000B4FCE /* AppDelegate.m in Sources */,
+				506ABD381D503890000B4FCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD481D503890000B4FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ABD511D503890000B4FCE /* _ios___htmlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506ABD531D503890000B4FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506ABD5C1D503890000B4FCE /* _ios___htmlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506ABD4E1D503890000B4FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506ABD321D503890000B4FCE /* 在ios中调用html */;
+			targetProxy = 506ABD4D1D503890000B4FCE /* PBXContainerItemProxy */;
+		};
+		506ABD591D503890000B4FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506ABD321D503890000B4FCE /* 在ios中调用html */;
+			targetProxy = 506ABD581D503890000B4FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		506ABD3F1D503890000B4FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506ABD401D503890000B4FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		506ABD441D503890000B4FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506ABD451D503890000B4FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506ABD5E1D503890000B4FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		506ABD5F1D503890000B4FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506ABD611D503890000B4FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在ios中调用html/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---html";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		506ABD621D503890000B4FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "在ios中调用html/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---html";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		506ABD641D503890000B4FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在ios中调用htmlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---htmlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在ios中调用html.app/在ios中调用html";
+			};
+			name = Debug;
+		};
+		506ABD651D503890000B4FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "在ios中调用htmlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---htmlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/在ios中调用html.app/在ios中调用html";
+			};
+			name = Release;
+		};
+		506ABD671D503890000B4FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在ios中调用htmlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---htmlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在ios中调用html";
+			};
+			name = Debug;
+		};
+		506ABD681D503890000B4FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "在ios中调用htmlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "max.-ios---htmlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "在ios中调用html";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506ABD2E1D503890000B4FCE /* Build configuration list for PBXProject "在ios中调用html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506ABD5E1D503890000B4FCE /* Debug */,
+				506ABD5F1D503890000B4FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506ABD601D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用html" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506ABD611D503890000B4FCE /* Debug */,
+				506ABD621D503890000B4FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		506ABD631D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用htmlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506ABD641D503890000B4FCE /* Debug */,
+				506ABD651D503890000B4FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		506ABD661D503890000B4FCE /* Build configuration list for PBXNativeTarget "在ios中调用htmlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506ABD671D503890000B4FCE /* Debug */,
+				506ABD681D503890000B4FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 506ABD2B1D503890000B4FCE /* Project object */;
+}
